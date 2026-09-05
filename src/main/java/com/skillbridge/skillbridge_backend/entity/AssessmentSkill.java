@@ -27,6 +27,7 @@ public class AssessmentSkill {
     @JoinColumn(name = "skill_id", nullable = false)
     private Skill skill;
 
-    @Column(nullable = false)
-    private BigDecimal weight = BigDecimal.ONE;
+    @Builder.Default
+@Column(nullable = false)
+private BigDecimal weight = BigDecimal.ONE;
 }

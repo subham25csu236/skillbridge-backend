@@ -17,7 +17,7 @@ Content-Type: application/json
 
 {
     "email": "student2@gmail.com",
-    "password": "Test@123"
+    "password": "Student@123"
 }
 
 
@@ -29,14 +29,14 @@ GET http://localhost:8080/api/test
 ### TEST WITH JWT
 
 GET http://localhost:8080/api/test
-Authorization: Bearer eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJzdHVkZW50MkBnbWFpbC5jb20iLCJ1c2VySWQiOjIsInJvbGUiOiJTVFVERU5UIiwiaWF0IjoxNzg4NTQwMDk0LCJleHAiOjE3ODg1NDM2OTR9.wBJO0bJidkZXSz2ORQ85J9Wh4KPki854CUoB4ma63qojLFASGVgAywXmunTxqiEf
+Authorization: Bearer eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJzdHVkZW50MkBnbWFpbC5jb20iLCJ1c2VySWQiOjIsInJvbGUiOiJTVFVERU5UIiwiaWF0IjoxNzg4NjA4MjIwLCJleHAiOjE3ODg2MTE4MjB9.V6aRdqZe4vXgAo8d8Z2zdYBjSisltxUN3ZehhCe0MKwB0Kn7hre98ZNL03qowNN1
 
 
 ### CREATE STUDENT PROFILE
 
 POST http://localhost:8080/api/students/profile
 Content-Type: application/json
-Authorization: Bearer eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJzdHVkZW50MkBnbWFpbC5jb20iLCJ1c2VySWQiOjIsInJvbGUiOiJTVFVERU5UIiwiaWF0IjoxNzg4NTQwMDk0LCJleHAiOjE3ODg1NDM2OTR9.wBJO0bJidkZXSz2ORQ85J9Wh4KPki854CUoB4ma63qojLFASGVgAywXmunTxqiEf
+Authorization: Bearer eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJzdHVkZW50MkBnbWFpbC5jb20iLCJ1c2VySWQiOjIsInJvbGUiOiJTVFVERU5UIiwiaWF0IjoxNzg4NjA4MjIwLCJleHAiOjE3ODg2MTE4MjB9.V6aRdqZe4vXgAo8d8Z2zdYBjSisltxUN3ZehhCe0MKwB0Kn7hre98ZNL03qowNN1
 
 {
     "userId": 2,
